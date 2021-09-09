@@ -1,15 +1,15 @@
 #!/usr/bin/python2.7
 # -- coding: utf-8 --
 # Author: Jesús Banda
-# Truncates a ranga alignment to a particular sequence, which will not have any gap.
-# NOTE: the query must have the same character length as the target(s) (gaps are welcomed!!)
+# Truncates a ran alignment to a particular sequence, which will not have any gap.
+# NOTE: the query must have the same character length as the target(s) (gaps are welcome!!)
 
 from sys import argv
 
 try:
     script, ranga, query = argv
 except ValueError:
-    print "\nUsage: align_trunc.py <rangafile> <seqnum_query(reference_line)>\n"
+    print "\nUsage: align_trunc.py <ALN.ran> <seqnum_query(reference_line)>\n"
 
 ran = open(ranga)
 ran_lines = ran.readlines() #list of lines
