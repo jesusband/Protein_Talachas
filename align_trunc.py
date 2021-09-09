@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 # -- coding: utf-8 --
 # Author: Jesús Banda
-# Truncates a ran alignment to a particular sequence, which will not have any gap.
+# Truncates/Prunes a ran alignment to a particular sequence, which will not have any gap.
 # NOTE: the query must have the same character length as the target(s) (gaps are welcome!!)
 
 from sys import argv
