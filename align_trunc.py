@@ -9,7 +9,7 @@ from sys import argv
 try:
     script, ranga, query = argv
 except ValueError:
-    print "\nUsage: align_trunc.py <ALN.ran> <seqnum_query(reference_line)>\n"
+    print "\nUsage: align_trunc.py <MSA.ran> <seqnum_query(reference_line)>\n"
 
 ran = open(ranga)
 ran_lines = ran.readlines() #list of lines
